@@ -43,7 +43,6 @@ const getUser = async(username) => {
 // init call
 
 // getUser("coder-pink")
-getUser("mis-coder")
 
 
 const getRepo = async(username) =>{
