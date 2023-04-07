@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    text-transform: capitalize;
+    list-style: none;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#form {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form #search {
+    padding: 0.6rem 2.2rem;
+    margin: 0.3rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    outline: none;
+    border-color: rgba(5, 121, 167, 0.247);
+}
+
+#form #search:focus {
+    background: rgba(5, 121, 167, 0.247);
+    color: rgb(24, 71, 90);
+    border: none;
+}
+
+/* ---------------------------------- box container styling ------------------------------------------*/
+
+
+#main {
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-height: 25vw;
+    background: rgba(236, 235, 235, 0.247);
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 0.6rem;
+}
+
+#main .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    gap: 1rem;
+
+}
+
+
+#main .card .profile-img {
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+    min-height: 8rem;
+    display: inline-block;
+    border-radius: 50%;
+    border: 0.3rem solid black;
+    padding: 1rem;
+    object-position: center;
+    object-fit: cover;
+    margin: 2rem auto;
+
+}
+
+#main .card .user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 5rem;
+    padding: 1.3rem;
+    margin: 0 auto;
+}
+
+#main .card .user-info h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: rgb(24, 71, 90);
+}
+
+#main .card .user-info p {
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: rgb(24, 71, 90);
+}
+
+#main .card .user-info .info li,
+#main .card .user-info .info strong {
+    display: inline-block;
+    padding: 0.4rem;
+    font-size: 1.4rem;
+
+}
+
+#main .card .user-info .info li {
+    margin-left: 1.4rem;
+}
+
+#main .card .user-info #repos a {
+    margin-right: 1.8rem;
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    background: rgb(140, 140, 196);
+    border: none;
+    text-transform: none;
+    display: inline-block;
+    padding: 0.3rem;
+    font-weight: 500;
+
+}
+
+#main .card .user-info #repos a:hover {
+    color: rgb(7, 62, 83);
+    font-weight: 600;
+    padding: 0.4rem;
+}
